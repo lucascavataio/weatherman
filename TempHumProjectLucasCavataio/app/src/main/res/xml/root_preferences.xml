@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/Temperature">
+
+        <com.example.temphumprojectlucascavataio.NumberDialog
+            app:key="minTemp"
+            app:title="@string/MinTempPreferencesTitle"
+            app:useSimpleSummaryProvider="true"
+            />
+        <com.example.temphumprojectlucascavataio.NumberDialog
+            app:key="maxTemp"
+            app:title="@string/MaxTempPreferencesTitle"
+            app:useSimpleSummaryProvider="true"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/Humidity">
+
+        <com.example.temphumprojectlucascavataio.NumberDialog
+            app:key="minHum"
+            app:title="@string/MinHumPreferencesTitle"
+            app:useSimpleSummaryProvider="true"
+            />
+        <com.example.temphumprojectlucascavataio.NumberDialog
+            app:key="maxHum"
+            app:title="@string/MaxHumPreferencesTitle"
+            app:useSimpleSummaryProvider="true"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/iptitle">
+
+        <EditTextPreference
+            app:key="deviceIp"
+            app:title="@string/putHereTheIpOfTheRaspberry"
+            app:useSimpleSummaryProvider="true"
+            />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

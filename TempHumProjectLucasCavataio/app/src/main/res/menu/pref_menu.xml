@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/preferences"
+        android:icon="@drawable/settings"
+        android:title="@string/preferences"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"/>
+    <item android:id="@+id/lectureHistory"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/history"
+        app:showAsAction="never" />
+    <item android:id="@+id/testLeds"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/testLeds"
+        app:showAsAction="never" />
+</menu>
